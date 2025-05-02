@@ -8,9 +8,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "CI=false vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
