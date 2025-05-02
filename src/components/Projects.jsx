@@ -3,7 +3,7 @@ import { translations } from '../translations/translations';
 import "./Projects.css";
 import GridBackground from "./GridBackground";
 import TrendsImage from "../assets/img/Trends.png";
-import PokedexImage from "../assets/img/pokedex.png";
+import PokedexImage from "../assets/img/Pokedex.png";
 import ClpConversorImage from "../assets/img/clpconversor.png"
 
 const Projects = () => {
