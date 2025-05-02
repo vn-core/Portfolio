@@ -1,0 +1,487 @@
+.about-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000814;
+  scroll-behavior: smooth;
+  position: relative;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.about-content {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: calc(80vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 39, 60, 0.7);
+  border-radius: 1rem;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 180, 216, 0.2);
+  box-sizing: border-box;
+  will-change: transform;
+  transform: translateZ(0);
+  margin-top: 3em;
+}
+
+.about-card {
+  width: 100%;
+  background-color: transparent;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #CAF0F8;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about-section {
+  width: 100%;
+  background-color: rgb(5, 5, 18);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  min-height: 500px;
+  box-sizing: border-box;
+}
+
+.about-section-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #CAF0F8;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.about-text {
+  color: #90E0EF;
+  line-height: 1.6;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+.skill-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.skill-name {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%) translateZ(0);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease;
+  will-change: transform, opacity;
+}
+
+.skill-tag:hover {
+  transform: scale(1.05) translateZ(0);
+}
+
+.skill-tag:hover .skill-name {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(-5px) translateZ(0);
+}
+
+.skill-tag.programming {
+  background-color: #00A8E8;
+}
+
+.skill-tag.design {
+  background-color: #90E0EF;
+}
+
+.skill-tag.agile {
+  background-color: #00B4D8;
+}
+
+.experience-item {
+  border-left: 4px solid #00B4D8;
+  padding-left: 0.55rem;
+  margin-bottom: 0.80rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.1rem 0.35rem 0.1rem;
+}
+
+.experience-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #CAF0F8;
+  margin-bottom: 0.1rem;
+}
+
+.experience-subtitle {
+  color: #90E0EF;
+  font-size: 0.85rem;
+  margin-bottom: 0.1rem;
+}
+
+.experience-description {
+  color: #90E0EF;
+  font-size: 0.85rem;
+  margin-bottom: 0.1rem;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel-slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 300%;
+  height: 100%;
+  position: relative;
+}
+
+.carousel-slide {
+  width: 33.333%;
+  flex-shrink: 0;
+  padding: 0.5rem;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #CAF0F8;
+  overflow: hidden;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  gap: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.carousel-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  will-change: transform, background-color;
+  transform: translateZ(0);
+}
+
+.carousel-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05) translateZ(0);
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  will-change: transform, background-color;
+  transform: translateZ(0);
+}
+
+.carousel-dot.active {
+  background: rgba(255, 255, 255, 0.8);
+  transform: scale(1.2) translateZ(0);
+}
+
+.about-section-content {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  padding: 0.5rem;
+  overflow: hidden;
+  text-align: left;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 0.5rem;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  margin-top: 3rem;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+.profile-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #CAF0F8;
+  margin: 0;
+  text-align: right;
+  flex: 1;
+}
+
+.education-item {
+  border-left: 4px solid #00B4D8;
+  padding-left: 0.55rem;
+  margin-bottom: 0.80rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.1rem 0.35rem 0.1rem;
+}
+
+.education-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #CAF0F8;
+  margin-bottom: 0.1rem;
+}
+
+.education-subtitle {
+  color: #90E0EF;
+  font-size: 0.85rem;
+  margin-bottom: 0.1rem;
+}
+
+.education-description {
+  color: #90E0EF;
+  font-size: 0.85rem;
+  margin-bottom: 0.1rem;
+}
+
+.certification-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #CAF0F8;
+  margin: 0.1rem 0;
+  margin-top: 0.8rem; 
+  margin-bottom: -0.3rem;
+}
+
+.certification-description {
+  color: #90E0EF;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  margin-left: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .profile-photo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .profile-name {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .about-section {
+    min-height: 400px;
+    padding: 1rem;
+  }
+
+  .about-section-title {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .carousel-slide {
+    padding: 0.5rem;
+    height: auto;
+    min-height: 400px;
+  }
+
+  .about-section-content {
+    padding: 0.25rem;
+    max-height: none;
+    overflow: visible;
+  }
+  
+  .education-item, .experience-item {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+  }
+
+  .education-title, .experience-title {
+    font-size: 1rem;
+  }
+
+  .education-subtitle, .experience-subtitle,
+  .education-description, .experience-description {
+    font-size: 0.9rem;
+  }
+
+  .certification-title {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+
+  .certification-description {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .carousel-controls {
+    margin-top: 1rem;
+  }
+
+  .carousel-button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .profile-name {
+    font-size: 1.5rem;
+  }
+
+  .about-section {
+    min-height: 350px;
+    padding: 0.75rem;
+  }
+
+  .about-section-title {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .carousel-slide {
+    padding: 0.25rem;
+    min-height: 350px;
+  }
+
+  .about-section-content {
+    padding: 0.15rem;
+  }
+  
+  .education-item, .experience-item {
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+  }
+
+  .education-title, .experience-title {
+    font-size: 0.95rem;
+  }
+
+  .education-subtitle, .experience-subtitle,
+  .education-description, .experience-description {
+    font-size: 0.85rem;
+  }
+
+  .certification-title {
+    font-size: 0.85rem;
+  }
+  
+  .certification-description {
+    font-size: 0.8rem;
+    line-height: 1.3;
+    margin-left: 0.5rem;
+  }
+
+  .carousel-controls {
+    margin-top: 0.75rem;
+  }
+
+  .carousel-button {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.85rem;
+  }
+
+  .about-content {
+    padding: 1rem;
+  }
+} 

@@ -1,0 +1,207 @@
+.projects-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000814;
+  scroll-behavior: smooth;
+  position: relative;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-content {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: calc(80vh - 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  background-color: rgba(0, 39, 60, 0.7);
+  border-radius: 1rem;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 180, 216, 0.2);
+  box-sizing: border-box;
+  will-change: transform;
+  transform: translateZ(0);
+  padding-top: 2em;
+  margin-top: 3em;
+}
+
+.projects-card {
+  width: 100%;
+  text-align: center;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #CAF0F8;
+  margin-bottom: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+.project-card {
+  background-color: rgb(5, 5, 18);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease;
+  border: 1px solid rgba(28, 163, 231, 0.817);
+  will-change: transform, background-color, box-shadow;
+  transform: translateZ(0);
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+}
+
+.project-card:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05) translateZ(0);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project-title {
+  font-size: 1.5rem;
+  color: #CAF0F8;
+  margin-bottom: 1rem;
+}
+
+.project-image-container {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.05);
+}
+
+.project-description {
+  color: #90E0EF;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+
+.project-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.project-card .project-skills .skill-tag {
+  background-color: rgb(5, 5, 18);
+  color: #CAF0F8;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border: 1px solid rgba(9, 163, 235, 0.58);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  margin: 0.15rem;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1;
+  transition: all 0.2s ease;
+  height: 1.5rem;
+  cursor: default;
+}
+
+.project-card .project-skills .skill-tag:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-1px);
+}
+
+.project-links {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-link {
+  display: inline-block;
+  background-color: #00B4D8;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.project-link:hover {
+  background-color: #0096C7;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .projects-title {
+    font-size: 2rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .project-card {
+    padding: 1.5rem;
+    min-height: 450px;
+  }
+
+  .project-title {
+    font-size: 1.3rem;
+  }
+
+  .project-description {
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+
+  .project-card .project-skills .skill-tag {
+    font-size: 0.65rem;
+    padding: 0.1rem 0.4rem;
+    min-width: 45px;
+  }
+} 

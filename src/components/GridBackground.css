@@ -1,0 +1,79 @@
+.grid-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+  gap: 1px;
+  z-index: 0;
+  pointer-events: none;
+  background-color: #000814;
+}
+
+.grid-background::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1180px;
+  max-width: 1180px;
+  height: 100vh;
+  background-color: #000814;
+  z-index: 1;
+}
+
+.grid-cell {
+  background-color: rgba(0, 39, 60, 0.2);
+  transition: all 0.8s ease;
+  aspect-ratio: 1;
+  min-width: 4px;
+  min-height: 4px;
+  opacity: 0;
+}
+
+.grid-cell:nth-child(50n+1),
+.grid-cell:nth-child(50n+2),
+.grid-cell:nth-child(50n+3),
+.grid-cell:nth-child(50n+4),
+.grid-cell:nth-child(50n+5),
+.grid-cell:nth-child(50n+46),
+.grid-cell:nth-child(50n+47),
+.grid-cell:nth-child(50n+48),
+.grid-cell:nth-child(50n+49),
+.grid-cell:nth-child(50n+50) {
+  opacity: 0.8;
+}
+
+.grid-cell:hover {
+  background-color: rgba(0, 180, 216, 0.6);
+  transform: scale(1.1);
+  z-index: 1;
+  box-shadow: 
+    0 0 0 1px rgba(0, 180, 216, 0.4),
+    0 0 0 2px rgba(0, 180, 216, 0.3),
+    0 0 0 3px rgba(0, 180, 216, 0.2);
+}
+
+@keyframes blueBlink {
+  0%, 100% { background-color: rgba(0, 39, 60, 0.2); }
+  50% { background-color: rgba(0, 180, 216, 0.5); }
+}
+
+@keyframes pinkBlink {
+  0%, 100% { background-color: rgba(0, 39, 60, 0.2); }
+  50% { background-color: rgba(255, 0, 128, 0.5); }
+}
+
+/* Estilos específicos para el GridBackground en el Home */
+.home-container .grid-background {
+  z-index: 0;
+}
+
+/* Estilos específicos para el GridBackground en las secciones individuales */
+.section-container .grid-background {
+  display: none;
+} 
