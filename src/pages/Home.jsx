@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <div className="main-section">
+      <div id="home" className="main-section">
         <GridBackground />
         <div className="home-content">
           <div className="home-text-center">

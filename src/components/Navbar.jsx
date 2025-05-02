@@ -25,6 +25,7 @@ const Navbar = () => {
               offset={-80}
               duration={500}
               className="navbar-brand"
+              onClick={() => setIsMenuOpen(false)}
             >
               Vanessa Contreras
             </Link>
@@ -41,7 +42,7 @@ const Navbar = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={0}
               duration={500}
               className="nav-link"
               onClick={() => setIsMenuOpen(false)}
@@ -52,7 +53,7 @@ const Navbar = () => {
               to="skills"
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={0}
               duration={500}
               className="nav-link"
               onClick={() => setIsMenuOpen(false)}
@@ -63,7 +64,7 @@ const Navbar = () => {
               to="projects"
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={0}
               duration={500}
               className="nav-link"
               onClick={() => setIsMenuOpen(false)}
@@ -74,7 +75,7 @@ const Navbar = () => {
               to="contact"
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={0}
               duration={500}
               className="nav-link"
               onClick={() => setIsMenuOpen(false)}
