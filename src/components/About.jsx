@@ -180,6 +180,15 @@ const About = () => {
                         </p>
                       </div>
                       <div className="experience-item">
+                        <h3 className="experience-title">{t.illustratorTitle}</h3>
+                        <p className="experience-subtitle">
+                          {t.illustratorSubtitle}
+                        </p>
+                        <p className="experience-description">
+                          {t.illustratorDescription}
+                        </p>
+                      </div>
+                      <div className="experience-item">
                         <h3 className="experience-title">{t.visualizerTitle}</h3>
                         <p className="experience-subtitle">
                           {t.visualizerSubtitle}
@@ -195,24 +204,6 @@ const About = () => {
                         </p>
                         <p className="experience-description">
                           {t.regulatoryDescription}
-                        </p>
-                      </div>
-                      <div className="experience-item">
-                        <h3 className="experience-title">{t.baristaTitle}</h3>
-                        <p className="experience-subtitle">
-                          {t.baristaSubtitle}
-                        </p>
-                        <p className="experience-description">
-                          {t.baristaDescription}
-                        </p>
-                      </div>
-                      <div className="experience-item">
-                        <h3 className="experience-title">{t.illustratorTitle}</h3>
-                        <p className="experience-subtitle">
-                          {t.illustratorSubtitle}
-                        </p>
-                        <p className="experience-description">
-                          {t.illustratorDescription}
                         </p>
                       </div>
                     </div>

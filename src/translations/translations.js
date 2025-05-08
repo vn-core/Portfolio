@@ -20,7 +20,7 @@ export const translations = {
     // About
     aboutTitle: "About me",
     aboutDescription:
-      "I'm a 27-year-old Full Stack Web Developer and Illustrator with a degree in Architecture. I love combining design with functionality to create meaningful digital experiences. I focus on writing clean, readable code, as I enjoy working in teams and believe that good code should be easy to understand and maintain. Since I was a child, I've been attracted to design and technology. Although I initially chose to study Architecture, over time my interest and skills in programming began to grow. I discovered how much I enjoy designing websites and writing code, so I decided to fully focus my efforts on growing and improving in this field.",
+      "I'm a 27-year-old Full Stack Web Developer with a degree in Architecture and experience as a freelance illustrator. I'm passionate about combining design and functionality to create user-centered digital experiences. Although my academic background is in Architecture, I discovered a deep interest in programming and have since dedicated myself fully to web development. I specialize in React, Node.js, Express, and SQL, with experience building full applications from frontend to backend. I value clean, maintainable code and enjoy working in collaborative environments, always prioritizing clarity and scalability. My aesthetic and structural vision is strengthened by my interdisciplinary background. I also use AI tools as occasional support to streamline workflows and validate ideas without compromising development quality.",
 
     // About Slides
     educationTitle: "Education",
@@ -34,25 +34,21 @@ export const translations = {
     architectureDescription:
       "Bachelor's degree in Architecture with focus on design and project management.",
     developerTitle: "Full Stack Developer",
-    developerSubtitle: "Freelance | 2024 – Present",
+    developerSubtitle: "Freelance | November 2024 – Present",
     developerDescription:
-      "Design and maintenance of websites based on client requirements, using HTML, CSS, JavaScript, Node.js, and primarily React.",
-    visualizerTitle: "Architectural 3D Visualizer",
-    visualizerSubtitle: "Freelance | 2024 – Present",
-    visualizerDescription:
-      "3D modeling, rendering, and post-production of architectural images.",
-    regulatoryTitle: "Regulatory Architect",
-    regulatorySubtitle: "Freelance | January 2024 – September 2024",
-    regulatoryDescription:
-      "Housing regularization in Maipú and Pudahuel under Law 20.898: Technical drawing of plans, preparation of regularization documents, and certified architect signature.",
-    baristaTitle: "Barista",
-    baristaSubtitle: "Starbucks | May 2024 – September 2024",
-    baristaDescription:
-      "Customer service, beverage preparation, and POS operation.",
+      "Design and maintenance of websites according to client requirements, using technologies such as HTML, CSS, JavaScript, Node.js, and React, among others. Focused on best development practices and optimizing user experience. Featured Project – Marketplace Development (3-person team): Developed a web application similar to a Marketplace using React, with deployment on Netlify (frontend), Render (backend), and a database on Railway. The design was initially created in Figma and then implemented directly in code. The platform allows users to operate as both buyers and sellers from the same account. Key features: product listing, individual stock management, real-time order tracking, and a smooth shopping experience. Emphasis on responsive design, intuitive navigation, and efficient state management.",
     illustratorTitle: "Freelance Illustrator",
     illustratorSubtitle: "Freelance | 2018 – Present",
     illustratorDescription:
       "Creation of custom illustrations and logos based on client proposals.",
+    visualizerTitle: "Architectural 3D Visualizer",
+    visualizerSubtitle: "Freelance | September 2023 – December 2024",
+    visualizerDescription:
+      "3D modeling, rendering, and post-production of architectural images.",
+    regulatoryTitle: "Regulatory Architect",
+    regulatorySubtitle: "Freelance | September 2023 – September 2024",
+    regulatoryDescription:
+      "Housing regularization in Maipú and Pudahuel under Law 20.898: Technical drawing of plans, preparation of regularization documents, and certified architect signature.",
     carouselPrevious: "Previous",
     carouselNext: "Next",
 
@@ -120,7 +116,7 @@ export const translations = {
     // About
     aboutTitle: "Sobre mí",
     aboutDescription:
-      "Soy una Desarrolladora Web Full Stack e Ilustradora de 27 años con título de Arquitecta. Me encanta combinar el diseño con la funcionalidad para crear experiencias digitales significativas. Me enfoco en escribir código limpio y legible, ya que disfruto trabajar en equipo y creo que un buen código debe ser fácil de entender y mantener. Desde pequeña, me ha atraído el diseño y la tecnología. Aunque inicialmente elegí estudiar Arquitectura, con el tiempo mi interés y habilidades en programación comenzaron a crecer. Descubrí cuánto disfruto diseñando sitios web y escribiendo código, así que decidí enfocar completamente mis esfuerzos en crecer y mejorar en este campo.",
+      "Soy Desarrolladora Web Full Stack de 27 años, con título en Arquitectura y experiencia como ilustradora freelance. Me apasiona combinar diseño y funcionalidad para crear experiencias digitales centradas en el usuario.\n\nAunque mi formación inicial fue en Arquitectura, descubrí en la programación un camino que realmente disfruto, y desde entonces me he dedicado por completo al desarrollo web. Estoy especializada en React, Node.js, Express y SQL, con experiencia en el desarrollo de aplicaciones completas, desde el frontend hasta el backend.\n\nValoro el código limpio y mantenible, y disfruto trabajando en equipo, priorizando siempre la claridad y la escalabilidad del proyecto. Mi visión estética y estructural se ve reforzada por mi formación interdisciplinaria. Además, incorporo herramientas de inteligencia artificial como apoyo puntual, para optimizar tiempos y procesos sin afectar la calidad del desarrollo.",
 
     // About Slides
     educationTitle: "Educación",
@@ -134,25 +130,21 @@ export const translations = {
     architectureDescription:
       "Título de Arquitecta con enfoque en diseño y gestión de proyectos.",
     developerTitle: "Desarrolladora Full Stack",
-    developerSubtitle: "Freelance | 2024 – Presente",
+    developerSubtitle: "Freelance | Noviembre 2024 – Presente",
     developerDescription:
-      "Diseño y mantenimiento de sitios web basados en los requisitos del cliente, utilizando HTML, CSS, JavaScript, Node.js y principalmente React, entre otras tecnologías.",
-    visualizerTitle: "Visualizadora 3D Arquitectónica",
-    visualizerSubtitle: "Freelance | 2024 – Presente",
-    visualizerDescription:
-      "Modelado 3D, renderizado y postproducción de imágenes arquitectónicas.",
-    regulatoryTitle: "Arquitecta Reguladora",
-    regulatorySubtitle: "Freelance | Enero 2024 – Septiembre 2024",
-    regulatoryDescription:
-      "Regularización de viviendas en Maipú y Pudahuel bajo la Ley 20.898: Dibujo técnico de planos, preparación de documentos de regularización y firma de arquitecta certificada.",
-    baristaTitle: "Barista",
-    baristaSubtitle: "Starbucks | Mayo 2024 – Septiembre 2024",
-    baristaDescription:
-      "Atención al cliente, preparación de bebidas y operación de POS.",
+      "Diseño y mantenimiento de sitios web según requerimientos del cliente, utilizando tecnologías como HTML, CSS, JavaScript, Node.js y React, entre otras. Enfoque en buenas prácticas de desarrollo y optimización de la experiencia de usuario.\n\nProyecto destacado – Desarrollo de Marketplace (equipo de 3 personas): Desarrollo de una aplicación web tipo Marketplace utilizando React, con despliegue en Netlify (frontend), Render (backend) y base de datos en Railway. El diseño fue elaborado inicialmente en Figma y luego implementado directamente en código. La plataforma permite a los usuarios operar como compradores y/o vendedores desde una misma cuenta. Funcionalidades clave: publicación de productos, gestión de stock individual, seguimiento de pedidos en tiempo real y experiencia de compra fluida. Enfoque en diseño responsivo, navegación intuitiva y manejo eficiente del estado de la aplicación.",
     illustratorTitle: "Ilustradora Freelance",
     illustratorSubtitle: "Freelance | 2018 – Presente",
     illustratorDescription:
       "Creación de ilustraciones personalizadas y logos basados en propuestas de clientes.",
+    visualizerTitle: "Visualizadora 3D Arquitectónica",
+    visualizerSubtitle: "Freelance | Septiembre 2023 – Diciembre 2024",
+    visualizerDescription:
+      "Modelado 3D, renderizado y postproducción de imágenes arquitectónicas.",
+    regulatoryTitle: "Arquitecta Reguladora",
+    regulatorySubtitle: "Freelance | Septiembre 2023 – Septiembre 2024",
+    regulatoryDescription:
+      "Regularización de viviendas en Maipú y Pudahuel bajo la Ley 20.898: Dibujo técnico de planos, preparación de documentos de regularización y firma de arquitecta certificada.",
     carouselPrevious: "Anterior",
     carouselNext: "Siguiente",
 
