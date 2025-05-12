@@ -20,7 +20,7 @@ export const translations = {
     // About
     aboutTitle: "About me",
     aboutDescription:
-      "I am a Web Developer with a focus on Frontend, passionate about creating clean, user-centered interfaces. I primarily work with React, JavaScript, HTML, CSS, and GSAP to design interactive experiences that blend functionality and design. My formation as an Architect and Illustrator allows me to visually structure each component, paying close attention to details from both a technical and creative perspective. I am deeply interested in understanding how the technologies I use work, not just applying them, which enables me to propose comprehensive and well-founded solutions. While I specialize in Frontend, I also have experience with Node.js, Express, and SQL on the Backend, allowing me to develop full applications.",
+      "I am a Web Developer with a focus on Frontend, passionate about creating clean, user-centered interfaces. I primarily work with React, Angular, JavaScript, HTML, CSS, and GSAP to design interactive experiences that blend functionality and design. My formation as an Architect and Illustrator allows me to visually structure each component, paying close attention to details from both a technical and creative perspective. I am deeply interested in understanding how the technologies I use work, not just applying them, which enables me to propose comprehensive and well-founded solutions. While I specialize in Frontend, I also have experience with Node.js, Express, and SQL on the Backend, allowing me to develop full applications.",
 
     // About Slides
     educationTitle: "Education",
@@ -116,7 +116,7 @@ export const translations = {
     // About
     aboutTitle: "Sobre mí",
     aboutDescription:
-      "Soy Desarrolladora Web con enfoque en Frontend, apasionada por crear interfaces limpias y centradas en el usuario. Trabajo principalmente con React, JavaScript, HTML, CSS y GSAP para diseñar experiencias interactivas que combinan funcionalidad y diseño. Mi formación como Arquitecta e Ilustradora me permite estructurar visualmente cada componente, prestando especial atención a los detalles desde una perspectiva tanto técnica como creativa. Me interesa profundamente comprender cómo funcionan las tecnologías que utilizo, no solo aplicarlas, lo que me permite proponer soluciones completas y bien fundamentadas. Aunque me especializo en Frontend, también tengo experiencia con Node.js, Express y SQL en el Backend, lo que me permite desarrollar aplicaciones completas.",
+      "Soy Desarrolladora Web con enfoque en Frontend, apasionada por crear interfaces limpias y centradas en el usuario. Trabajo principalmente con React, Angular, JavaScript, HTML, CSS y GSAP para diseñar experiencias interactivas que combinan funcionalidad y diseño. Mi formación como Arquitecta e Ilustradora me permite estructurar visualmente cada componente, prestando especial atención a los detalles desde una perspectiva tanto técnica como creativa. Me interesa profundamente comprender cómo funcionan las tecnologías que utilizo, no solo aplicarlas, lo que me permite proponer soluciones completas y bien fundamentadas. Aunque me especializo en Frontend, también tengo experiencia con Node.js, Express y SQL en el Backend, lo que me permite desarrollar aplicaciones completas.",
 
     // About Slides
     educationTitle: "Educación",
