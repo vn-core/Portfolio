@@ -9,9 +9,9 @@ export const translations = {
 
     // Home
     homeTitle: "Hi! I'm Vanessa",
-    homeSubtitle: "Full Stack Developer · Illustrator",
+    homeSubtitle: "Full Stack Developer · Frontend & Backend",
     homeDescription:
-      "I'm Vanessa Contreras, a 27-year-old Full Stack Web Developer and Illustrator with a degree in Architecture. I love combining design with functionality to create meaningful digital experiences.",
+      "I'm a Full Stack Web Developer with a focus on Frontend who loves crafting clean, intuitive interfaces with purpose. I don't just apply technologies — I dive into how they work, so I can build smart, well-thought-out solutions that truly make sense. While my main focus is on Frontend, I'm also comfortable working on the Backend when needed, as it helps me better understand the full scope of what I'm working on.",
     aboutCard: "Get to know more about my experience and education",
     skillsCard: "Explore my technical abilities",
     projectsCard: "Explore my work and more",
@@ -20,7 +20,7 @@ export const translations = {
     // About
     aboutTitle: "About me",
     aboutDescription:
-      "I'm a 27-year-old Full Stack Web Developer with a degree in Architecture and experience as a freelance illustrator. I'm passionate about combining design and functionality to create user-centered digital experiences. Although my academic background is in Architecture, I discovered a deep interest in programming and have since dedicated myself fully to web development. I specialize in React, Node.js, Express, and SQL, with experience building full applications from frontend to backend. I value clean, maintainable code and enjoy working in collaborative environments, always prioritizing clarity and scalability. My aesthetic and structural vision is strengthened by my interdisciplinary background. I also use AI tools as occasional support to streamline workflows and validate ideas without compromising development quality.",
+      "I am a Web Developer with a focus on Frontend, passionate about creating clean, user-centered interfaces. I primarily work with React, JavaScript, HTML, CSS, and GSAP to design interactive experiences that blend functionality and design. My formation as an Architect and Illustrator allows me to visually structure each component, paying close attention to details from both a technical and creative perspective. I am deeply interested in understanding how the technologies I use work, not just applying them, which enables me to propose comprehensive and well-founded solutions. While I specialize in Frontend, I also have experience with Node.js, Express, and SQL on the Backend, allowing me to develop full applications.",
 
     // About Slides
     educationTitle: "Education",
@@ -105,9 +105,9 @@ export const translations = {
 
     // Home
     homeTitle: "¡Hola! Soy Vanessa",
-    homeSubtitle: "Desarrolladora Full Stack · Ilustradora",
+    homeSubtitle: "Desarrolladora Full Stack · Frontend & Backend",
     homeDescription:
-      "Soy Vanessa Contreras, una Desarrolladora Web Full Stack e Ilustradora de 27 años con título de Arquitecta. Me encanta combinar el diseño con la funcionalidad para crear experiencias digitales significativas.",
+      "Soy una Desarrolladora Web Full Stack con enfoque en Frontend que ama crear interfaces limpias e intuitivas con propósito. No solo aplico tecnologías — me sumerjo en cómo funcionan, para poder construir soluciones que realmente tengan sentido. Aunque mi enfoque principal está en Frontend, también me siento cómoda trabajando en Backend cuando es necesario, ya que me ayuda a entender mejor el alcance completo de lo que estoy desarrollando.",
     aboutCard: "Conoce más sobre mi experiencia y educación",
     skillsCard: "Explora mis habilidades técnicas",
     projectsCard: "Explora mi trabajo y más",
@@ -116,7 +116,7 @@ export const translations = {
     // About
     aboutTitle: "Sobre mí",
     aboutDescription:
-      "Soy Desarrolladora Web Full Stack de 27 años, con título en Arquitectura y experiencia como ilustradora freelance. Me apasiona combinar diseño y funcionalidad para crear experiencias digitales centradas en el usuario.\n\nAunque mi formación inicial fue en Arquitectura, descubrí en la programación un camino que realmente disfruto, y desde entonces me he dedicado por completo al desarrollo web. Estoy especializada en React, Node.js, Express y SQL, con experiencia en el desarrollo de aplicaciones completas, desde el frontend hasta el backend.\n\nValoro el código limpio y mantenible, y disfruto trabajando en equipo, priorizando siempre la claridad y la escalabilidad del proyecto. Mi visión estética y estructural se ve reforzada por mi formación interdisciplinaria. Además, incorporo herramientas de inteligencia artificial como apoyo puntual, para optimizar tiempos y procesos sin afectar la calidad del desarrollo.",
+      "Soy Desarrolladora Web con enfoque en Frontend, apasionada por crear interfaces limpias y centradas en el usuario. Trabajo principalmente con React, JavaScript, HTML, CSS y GSAP para diseñar experiencias interactivas que combinan funcionalidad y diseño. Mi formación como Arquitecta e Ilustradora me permite estructurar visualmente cada componente, prestando especial atención a los detalles desde una perspectiva tanto técnica como creativa. Me interesa profundamente comprender cómo funcionan las tecnologías que utilizo, no solo aplicarlas, lo que me permite proponer soluciones completas y bien fundamentadas. Aunque me especializo en Frontend, también tengo experiencia con Node.js, Express y SQL en el Backend, lo que me permite desarrollar aplicaciones completas.",
 
     // About Slides
     educationTitle: "Educación",
