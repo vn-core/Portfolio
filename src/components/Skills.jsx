@@ -6,6 +6,7 @@ import {
   faJs,
   faReact,
   faNodeJs,
+  faAngular,
 } from "@fortawesome/free-brands-svg-icons";
 import pgAdminIcon from "../assets/img/pgadmin.png";
 import mysqlIcon from "../assets/img/mysql.png";
@@ -30,6 +31,7 @@ const programmingSkills = [
   { name: "CSS3", icon: faCss3, type: "font" },
   { name: "JavaScript", icon: faJs, type: "font" },
   { name: "React", icon: faReact, type: "font" },
+  { name: "Angular", icon: faAngular, type: "font" },
   { name: "Node.js", icon: faNodeJs, type: "font" },
   { name: "PG Admin", icon: pgAdminIcon, type: "image" },
   { name: "My SQL", icon: mysqlIcon, type: "image" },
