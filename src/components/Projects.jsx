@@ -37,7 +37,7 @@ const Projects = () => {
               </div>
               <div className="project-links">
                 <a 
-                  href="https://marketplace-trends.netlify.app" 
+                  href="https://trendsmarketplacecl.netlify.app" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="project-link"
